@@ -1,6 +1,7 @@
 # Dmitry Volkov
   Junior Frontend Developer
 
+<img width="200" alt="image" src="https://github.com/Dvolk76/rsschool-cv/assets/66320525/384314bc-32ad-40b0-8761-13ca72e0a7c6">
 
 
 ## Contact Information
