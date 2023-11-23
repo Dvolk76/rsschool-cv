@@ -614,3 +614,22 @@ font-style: normal;
 font-weight: 600;
 line-height: 125%; /* 30px */
     }
+    .slider-control-pods-wrapper{
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .slider-control-pod-dark{
+        width: 40px;
+        height: 4px;
+        border-radius: 100px;
+        border: none;
+        background: var(--border-dark, #665F55);
+    }
+    .slider-control-pod-light{
+        width: 40px;
+        height: 4px;
+        border-radius: 100px;
+        border: none;
+        background: var(--border-light, #C1B6AD);
+    }
