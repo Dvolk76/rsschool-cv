@@ -633,3 +633,81 @@ line-height: 125%; /* 30px */
         border: none;
         background: var(--border-light, #C1B6AD);
     }
+    .about-wrapper{
+        width: 100%;
+        height: 1325px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+    }
+    .about-container{
+        display: flex;
+        width: 1360px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .about-text{
+        color: var(--text-dark, #403F3D);
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* Desktop/Heading/heading-2 */
+        font-family: Inter;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%; /* 75px */
+    }
+    .about-text-accent{
+        color: var(--text-accent, #B0907A);
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* Desktop/Heading/heading-2.accent */
+        font-family: Inter;
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 125%;
+    }
+    .about-images{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 1360px;
+        gap: 40px;
+        max-height: 1060px;
+    }
+    .img-1{
+        width: 660px;
+        height: 590px;
+        border-radius: 20px;
+        background: url(../img/about-girl-1.jpeg);
+        background-size: 110%;
+        background-position: center;
+    }
+    .img-2{
+        width: 660px;
+        height: 430px;
+        border-radius: 20px;
+        background: url(../img/about-coffee-cup-2.jpeg);
+        background-size: 110%;
+        background-position: center;
+    }
+    .img-3{
+        width: 660px;
+        height: 430px;
+        border-radius: 20px;
+        background: url(../img/about-man-3.jpeg);
+        background-size: 110%;
+        background-position: center;
+    }
+    .img-4{
+        width: 660px;
+        height: 590px;
+        border-radius: 20px;
+        background: url(../img/about-girl-by-4.jpeg);
+        background-size: 110%;
+        background-position: center;
+    }
